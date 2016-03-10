@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABBF6E1E1C912829002061A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBF6E1D1C912829002061A4 /* AppDelegate.swift */; };
+		ABBF6E201C912829002061A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBF6E1F1C912829002061A4 /* ViewController.swift */; };
+		ABBF6E231C912829002061A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBF6E211C912829002061A4 /* Main.storyboard */; };
+		ABBF6E251C912829002061A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBF6E241C912829002061A4 /* Assets.xcassets */; };
+		ABBF6E281C912829002061A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBF6E261C912829002061A4 /* LaunchScreen.storyboard */; };
+		ABBF6E331C912829002061A4 /* TipBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBF6E321C912829002061A4 /* TipBuddyTests.swift */; };
+		ABBF6E3E1C91282A002061A4 /* TipBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBF6E3D1C91282A002061A4 /* TipBuddyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABBF6E2F1C912829002061A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBF6E121C912829002061A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBF6E191C912829002061A4;
+			remoteInfo = TipBuddy;
+		};
+		ABBF6E3A1C91282A002061A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBF6E121C912829002061A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBF6E191C912829002061A4;
+			remoteInfo = TipBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABBF6E1A1C912829002061A4 /* TipBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBF6E1D1C912829002061A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABBF6E1F1C912829002061A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABBF6E221C912829002061A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABBF6E241C912829002061A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABBF6E271C912829002061A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABBF6E291C912829002061A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBF6E2E1C912829002061A4 /* TipBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBF6E321C912829002061A4 /* TipBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipBuddyTests.swift; sourceTree = "<group>"; };
+		ABBF6E341C912829002061A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBF6E391C91282A002061A4 /* TipBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBF6E3D1C91282A002061A4 /* TipBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipBuddyUITests.swift; sourceTree = "<group>"; };
+		ABBF6E3F1C91282A002061A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBF6E171C912829002061A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBF6E2B1C912829002061A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBF6E361C912829002061A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBF6E111C912829002061A4 = {
+			isa = PBXGroup;
+			children = (
+				ABBF6E1C1C912829002061A4 /* TipBuddy */,
+				ABBF6E311C912829002061A4 /* TipBuddyTests */,
+				ABBF6E3C1C91282A002061A4 /* TipBuddyUITests */,
+				ABBF6E1B1C912829002061A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBF6E1B1C912829002061A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBF6E1A1C912829002061A4 /* TipBuddy.app */,
+				ABBF6E2E1C912829002061A4 /* TipBuddyTests.xctest */,
+				ABBF6E391C91282A002061A4 /* TipBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABBF6E1C1C912829002061A4 /* TipBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				ABBF6E1D1C912829002061A4 /* AppDelegate.swift */,
+				ABBF6E1F1C912829002061A4 /* ViewController.swift */,
+				ABBF6E211C912829002061A4 /* Main.storyboard */,
+				ABBF6E241C912829002061A4 /* Assets.xcassets */,
+				ABBF6E261C912829002061A4 /* LaunchScreen.storyboard */,
+				ABBF6E291C912829002061A4 /* Info.plist */,
+			);
+			path = TipBuddy;
+			sourceTree = "<group>";
+		};
+		ABBF6E311C912829002061A4 /* TipBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABBF6E321C912829002061A4 /* TipBuddyTests.swift */,
+				ABBF6E341C912829002061A4 /* Info.plist */,
+			);
+			path = TipBuddyTests;
+			sourceTree = "<group>";
+		};
+		ABBF6E3C1C91282A002061A4 /* TipBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABBF6E3D1C91282A002061A4 /* TipBuddyUITests.swift */,
+				ABBF6E3F1C91282A002061A4 /* Info.plist */,
+			);
+			path = TipBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABBF6E191C912829002061A4 /* TipBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBF6E421C91282A002061A4 /* Build configuration list for PBXNativeTarget "TipBuddy" */;
+			buildPhases = (
+				ABBF6E161C912829002061A4 /* Sources */,
+				ABBF6E171C912829002061A4 /* Frameworks */,
+				ABBF6E181C912829002061A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipBuddy;
+			productName = TipBuddy;
+			productReference = ABBF6E1A1C912829002061A4 /* TipBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABBF6E2D1C912829002061A4 /* TipBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBF6E451C91282A002061A4 /* Build configuration list for PBXNativeTarget "TipBuddyTests" */;
+			buildPhases = (
+				ABBF6E2A1C912829002061A4 /* Sources */,
+				ABBF6E2B1C912829002061A4 /* Frameworks */,
+				ABBF6E2C1C912829002061A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBF6E301C912829002061A4 /* PBXTargetDependency */,
+			);
+			name = TipBuddyTests;
+			productName = TipBuddyTests;
+			productReference = ABBF6E2E1C912829002061A4 /* TipBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABBF6E381C912829002061A4 /* TipBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBF6E481C91282A002061A4 /* Build configuration list for PBXNativeTarget "TipBuddyUITests" */;
+			buildPhases = (
+				ABBF6E351C912829002061A4 /* Sources */,
+				ABBF6E361C912829002061A4 /* Frameworks */,
+				ABBF6E371C912829002061A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBF6E3B1C91282A002061A4 /* PBXTargetDependency */,
+			);
+			name = TipBuddyUITests;
+			productName = TipBuddyUITests;
+			productReference = ABBF6E391C91282A002061A4 /* TipBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBF6E121C912829002061A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SwanInc;
+				TargetAttributes = {
+					ABBF6E191C912829002061A4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					ABBF6E2D1C912829002061A4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ABBF6E191C912829002061A4;
+					};
+					ABBF6E381C912829002061A4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ABBF6E191C912829002061A4;
+					};
+				};
+			};
+			buildConfigurationList = ABBF6E151C912829002061A4 /* Build configuration list for PBXProject "TipBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABBF6E111C912829002061A4;
+			productRefGroup = ABBF6E1B1C912829002061A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBF6E191C912829002061A4 /* TipBuddy */,
+				ABBF6E2D1C912829002061A4 /* TipBuddyTests */,
+				ABBF6E381C912829002061A4 /* TipBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABBF6E181C912829002061A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBF6E281C912829002061A4 /* LaunchScreen.storyboard in Resources */,
+				ABBF6E251C912829002061A4 /* Assets.xcassets in Resources */,
+				ABBF6E231C912829002061A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBF6E2C1C912829002061A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBF6E371C912829002061A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBF6E161C912829002061A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBF6E201C912829002061A4 /* ViewController.swift in Sources */,
+				ABBF6E1E1C912829002061A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBF6E2A1C912829002061A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBF6E331C912829002061A4 /* TipBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBF6E351C912829002061A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBF6E3E1C91282A002061A4 /* TipBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABBF6E301C912829002061A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBF6E191C912829002061A4 /* TipBuddy */;
+			targetProxy = ABBF6E2F1C912829002061A4 /* PBXContainerItemProxy */;
+		};
+		ABBF6E3B1C91282A002061A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBF6E191C912829002061A4 /* TipBuddy */;
+			targetProxy = ABBF6E3A1C91282A002061A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABBF6E211C912829002061A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBF6E221C912829002061A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABBF6E261C912829002061A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBF6E271C912829002061A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABBF6E401C91282A002061A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABBF6E411C91282A002061A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABBF6E431C91282A002061A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwanInc.TipBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABBF6E441C91282A002061A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwanInc.TipBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABBF6E461C91282A002061A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TipBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwanInc.TipBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipBuddy.app/TipBuddy";
+			};
+			name = Debug;
+		};
+		ABBF6E471C91282A002061A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TipBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwanInc.TipBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipBuddy.app/TipBuddy";
+			};
+			name = Release;
+		};
+		ABBF6E491C91282A002061A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TipBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwanInc.TipBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TipBuddy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ABBF6E4A1C91282A002061A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TipBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwanInc.TipBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TipBuddy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBF6E151C912829002061A4 /* Build configuration list for PBXProject "TipBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBF6E401C91282A002061A4 /* Debug */,
+				ABBF6E411C91282A002061A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBF6E421C91282A002061A4 /* Build configuration list for PBXNativeTarget "TipBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBF6E431C91282A002061A4 /* Debug */,
+				ABBF6E441C91282A002061A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABBF6E451C91282A002061A4 /* Build configuration list for PBXNativeTarget "TipBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBF6E461C91282A002061A4 /* Debug */,
+				ABBF6E471C91282A002061A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABBF6E481C91282A002061A4 /* Build configuration list for PBXNativeTarget "TipBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBF6E491C91282A002061A4 /* Debug */,
+				ABBF6E4A1C91282A002061A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBF6E121C912829002061A4 /* Project object */;
+}
